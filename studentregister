@@ -1,0 +1,52 @@
+<htm>
+    <head>
+<title>Document</title>
+    </head>
+    <body bgcolor="white">
+<from action="main.java" method="post">
+   <center><h2>Student Registation Form</h2></center> 
+    <label for="name">First Name:</label>
+    <input type="text" id="name" placeholder="enter the first name" name="user name" required><br><br>
+    <label for="text" >Last Name: </label>
+    <input type="text"id="name" placeholder="enter the last name" name="user name"><br><br>
+    <label >course:</label>
+    <select>
+        <option value="Course">Course</option>
+        <option value="B.TECH">B.TECH</option>
+        <option value="DEGREE">DEGREE</option>
+        <option value="MBA">MBA</option>
+        <option value="MCA">MCA</option>
+        <option value="DIPLOMA">DIPLOMA</option>
+        <option value="M.COM">M.COM</option>
+        <option value="ITI">ITI</option>
+    </select><br><br>
+    <label for="text"> Gender:</label><br>
+    <input type="radio" name="MALE"/>MALE<br>
+    <input type="radio" name="FEMALE"/>FEMALE<br>
+    <input type="radio" name="OTHERS"/>OTEHRS
+    <br>
+    <br>
+    <label for="text">EMAIL ID:</label>
+    <input type="text" id="name" placeholder="enter valid email id">
+    <br>
+    <br>
+    <label for="text">Phone Number:</label>
+    <input type="text" number="number" placeholder="enter valid number">
+    <br>
+    <br>
+    <label for="text">Address:</label>
+    <textarea colsp="50" rowsp="5" value="address"></textarea>
+    <br>
+    <br>
+    <label for="text">Password:</label>
+    <input type="text" id="password" placeholder="create a password">
+    <br><br>
+    <label for="text">Re-Password:</label>
+    <input type="text" id="password" placeholder="enter correct password">
+    <br><br>
+    <input type="submit" value="submit">
+    <br>
+    <br>
+</from>
+    </body>
+</htm>
